@@ -5,7 +5,7 @@
   --forth-color: #B7D5CA;
 }
 
-h1,h2,h3
+h1,h3
 {
 	text-align:center;
 }
@@ -32,9 +32,6 @@ body
 {
 	font-family: Helvetica, Arial, Sans-Serif;
 	background-color:var(--main-color);
-	max-width: 1000px;
-	margin: 60px auto;
-	
 }
 
 
@@ -70,6 +67,13 @@ a.contact:hover, a.about:hover
 	display:flex;
 	margin:30px 0;
 }
+
+p
+{
+	line-height:27px;
+	font-size:18px;
+}
+
 .about-par p
 {
 	margin:15px;
@@ -78,5 +82,4 @@ a.contact:hover, a.about:hover
 	padding:50px;
 	line-height:27px;
 	border-radius:5px;
-	text-align:center;
 }
