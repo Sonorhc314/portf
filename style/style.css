@@ -20,7 +20,6 @@
   p {
     text-align: center;
   }
-
   .project-link {
     display: block;
     text-align: center;
@@ -42,32 +41,14 @@ h3 {
   font-size: 30px;
 }
 
-.navigation-lin {
+.navigation-links {
   display: flex;
+  margin-top: 40px;
   justify-content: center;
-  text-decoration: none;
-  color: blue;
 }
 
-body {
-  font-family: Helvetica, Arial, Sans-Serif;
-  background-color: var(--main-color);
-}
-
-.navigation-lin a {
-  margin: 20px;
-  font-size: 20px;
-  padding: 20px;
-  border-radius: 15px;
-  text-decoration: none;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.contact,
-.about {
-  color: var(--main-color);
-  background-color: var(--third-color);
-  border: 1.5px solid var(--third-color);
+.navigation-links a {
+  margin: 0px 20px;
 }
 
 .primary-link {
@@ -75,17 +56,23 @@ body {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background-color: var(--third-color);
+  background: var(--third-color);
   box-shadow: var(--box-shadow);
-  color: var(--main-color);
+  border: 1.5px solid var(--third-color);
+  color: white;
 }
 
-a.contact:hover,
-a.about:hover {
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+  background-color: var(--main-color);
+}
+
+a.primary-link:hover {
   color: var(--third-color);
   background-color: var(--main-color);
   transition: all 300ms ease-in-out;
   border: 1.5px solid var(--third-color);
+  text-decoration: none;
 }
 
 .about-par {
